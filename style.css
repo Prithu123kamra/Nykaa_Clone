@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter, Roboto, Arial, sans-serif;
+}
+header nav img{
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 150px;
+
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-style:normal;
+    font-size: 16px;
+    
+}
+.arrow{
+    padding: 5px;
+    border: solid;
+    border-radius: 250px;
+    position: absolute;
+    left:1300px;
+    top: 400px;
+    border-color: rgb(239, 236, 236);
+    color: grey;
+    font-size: 25px;
+}
+.nykaa_logo{
+    width: 70%;
+}
+.search{
+    border: 1px solid rgba(151,151,151,0.1);
+    width: 100%;
+    padding: 0.2%;
+    display: flex;
+    
+}
+.search_button {
+    border: none;
+    background-color: rgb(230, 228, 228);
+    /* padding-top: 2px */
+}
+form {
+    border: 2px solid rgb(211, 210, 210); 
+    outline: none;
+    width: 100%;
+    border-radius: 4px;
+    background-color: rgb(230, 228, 228);
+    display: flex;
+    height: 30px;
+    
+    
+}
+
+input {
+    border: none; 
+    width: 100%;
+    background-color: rgb(230, 228, 228);
+    /* margin-bottom: 5px; */
+}
+
+.navbar{
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 1% 2%;
+    /* flex-direction: column; */
+    border: 1px solid rgb(224, 222, 222);
+    height: 125px;
+
+}
+.right_items{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 40%;
+    padding: 5% 5%;
+}
+.button{
+    width: 65px;
+    height: 30px;
+    border: 2px solid rgb(231, 32, 118);
+    background-color: rgb(250, 45, 134); 
+    color: white;
+    border-radius: 4px;
+}
+main{
+    margin-top: 125px;
+}
+main .first .head a{
+    text-decoration: none;
+    color: grey;
+    margin-left: 20px;
+
+}
+main .head{
+    margin: 100px;
+    padding-top: 13px;
+    padding-left: 60px;
+    
+}
+.first{
+    border-bottom: 2px solid  rgb(224, 222, 222);
+    height: 40px;
+    box-shadow: -8px -8px 15px white, 5px 5px 15px rgba(0,0,0,0.2);
+}
+.sliders{
+    padding-top: 50px;
+    padding-left:70px;
+    display:flex;
+    justify-content: space-between;
+    gap:20px; 
+    overflow: hidden;
+}
+.sliders a img{
+    width:400px;
+    height: 400px;
+    border-radius: 10px; 
+    
+}
+.white{
+    height:80px;
+}
+.explore{
+    padding-top:30px;
+    padding-left:70px;
+    padding-right: 50px;
+    background-color:rgb(239, 235, 235);
+}
+
+.explore h2{
+    color:rgb(2, 2, 48);
+    font-family: Inter, Roboto, Arial, sans-serif;
+}
+.explore h5{
+    color:rgb(70, 70, 99);
+    border-bottom: 2px solid rgb(190, 189, 189);
+}
+.images{
+    padding-top: 50px;
+    padding-bottom:30px;
+    /* padding-left:70px; */
+    display:flex;
+    justify-content: space-between;
+    gap:20px; 
+}
+.images a img{
+    width:400px;
+    height: 400px;
+    border-radius: 10px; 
+}
+.big_image a img{
+    width:100%;
+    height:350px;
+}
+.circle_images{
+    padding-left:50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.circle_images a img{
+    padding:5px;
+}
+.nykaa_image{
+    margin-top:10px;
+    width:100%;
+}
+.nykaa_image a img{
+    width:100%;
+}
+.rec_images{
+    display: flex;
+    padding-left:70px;
+    justify-content: space-between;
+    gap:10px;
+}
+.rec_images a img{
+    border-radius:5px;
+
+}
+.slide_button_img{
+    padding-top:20px;
+    padding-left:70px;
+    padding-right: 50px;
+    /* background:url(https://images-static.nykaa.com/uploads/28690ee2-3f52-494d-9ca2-5a14b5251f16.jpg?tr=w-1200,cm-pad_resize); */
+    background-repeat: no-repeat;
+    /* background-size:800px; */
+}
+.world{
+    /* background-color: black; */
+}
+.radar{
+    padding-top:30px;
+    padding-left:70px;
+    padding-right: 50px;
+    background-color:white;
+}
+.radar h2{
+    color:rgb(2, 2, 48);
+    font-family: Inter, Roboto, Arial, sans-serif;
+}
+.radar h5{
+    color:rgb(70, 70, 99);
+    border-bottom: 2px solid rgb(190, 189, 189);
+}
+.images1{
+    padding-top: 30px;
+    padding-bottom:30px;
+    /* padding-left:70px; */
+    display:flex;
+    justify-content: space-between;
+    gap:20px; 
+}
+.images1 a img{
+    width:200px;
+    height: 300px;
+    border-radius: 10px;
+}
+.images1 a{
+    text-decoration: none;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+}
+.images1 a h4{
+    color: grey;
+    font-family:'Times New Roman', Times, serif;
+}
+.hot_list{
+    width: 100%;
+}
+.hot_list a img{
+    width: 100%;
+}
+.stellar{
+    padding-top:30px;
+    padding-left:50px;
+    padding-right: 50px;
+    background-color:white;
+}
+.stellar h2{
+    color:rgb(2, 2, 48);
+    font-family: Inter, Roboto, Arial, sans-serif;
+}
+.stellar h5{
+    color:rgb(70, 70, 99);
+    border-bottom: 2px solid rgb(233, 231, 231);
+}
+.stellar1{
+    padding-top: 50px;
+    padding-bottom:30px;
+    /* padding-left:70px; */
+    display:flex;
+    justify-content: space-between;
+    gap:20px; 
+}
+.stellar1 a img{
+    width:300px;
+    height: 400px;
+    border-radius: 10px; 
+}
+.stellar1 a{
+    text-decoration: none;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+}
+.stellar1 a h4{
+    color: grey;
+    font-family:'Times New Roman', Times, serif;
+}
+.makeup_with_skincare_benefits{
+    width: 100%;
+
+}
+
+.makeup_with_skincare_benefits a img{
+    width: 100%;
+    height: 300px;
+}
+.types{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.types a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+.only_images{
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.only_images a img{
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+}
+.only_at_nykaa{
+    width: 100%;
+
+}
+.only_at_nykaa a img {
+    width: 100%;
+    
+}
+.sliders1{
+    padding-top: 10px;
+    padding-left:50px;
+    display:flex;
+    justify-content: space-between;
+    gap:20px; 
+}
+.sliders1 a img{
+    width:400px;
+    height: 400px;
+    border-radius: 10px; 
+    
+}
+.footer_heading{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 1px;
+}
+.try{
+    background: url(https://th.bing.com/th/id/R.d199ef21a5502444852ec7e95d95fc14?rik=LPIN6x68iy32OQ&riu=http%3a%2f%2fattractmorenow.com%2fwp-content%2fuploads%2f2017%2f10%2fcropped-klu-background.jpg&ehk=Lucj6ZkYHzgZ2U%2fst7MLN6MJ0P0T1X4tVmltnM%2f7qOw%3d&risl=&pid=ImgRaw&r=0);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+.try h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.try h4{
+    padding-bottom: 20px;
+}
+.button4{
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid  rgb(249, 165, 203);
+    font-size: 20px;
+    background-color:white;
+    color: rgb(252, 7, 117);box-shadow: -8px -8px 15px rgb(242, 240, 240,0.2), 5px 5px 15px rgba(253, 23, 149, 0.2);
+}
+.links1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgb(217, 217, 217);
+    padding-right: 100px;
+}
+
+.who{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left:150px;
+}
+.who h1{
+    padding-bottom: 20px;
+    color: rgb(73, 73, 73);
+}
+.who a{
+    text-decoration: none;
+    color: grey;
+    padding-bottom: 10px;
+}
+.who1{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.who1 h1{
+    padding-bottom: 20px;
+    color: rgb(73, 73, 73);
+}
+.who1 a{
+    text-decoration: none;
+    color: grey;
+    padding-bottom: 10px;
+}
+.save{
+    margin-top: 30px;
+    background-color:rgb(252, 7, 117);
+    color: white;
+    border:2px solid rgb(252, 7, 117);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.copyright{
+    background-color: rgb(105, 104, 104);
+    color: white;
+    text-align: center;
+    padding:5px;
+}
+
+
+
+
+
+
